@@ -85,7 +85,7 @@ def process_image(url: str, discounted_price, discount_percentage):
 
 
     if discount_percentage:
-        discount_position = (500, 262) #892
+        discount_position = (892, 262) #892
         price_position = (901, 535)
         discount_rotation = 5
         price_rotation = 5
