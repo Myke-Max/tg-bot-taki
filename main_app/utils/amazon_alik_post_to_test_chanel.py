@@ -80,7 +80,7 @@ def amazon(obj: AmazonAutomationTask):
                                                                    task=obj, )
                 saved_product.save()
 
-                res["title"] = "TEST\n\n" + res["title"]
+                res["title"] = res["title"]
                 test_bot.send_message(res)
         except Exception as e:
             print(f"Error: {e}")
@@ -147,7 +147,7 @@ def alik(obj: AliExpressAutomationTask):
                                                                        task=obj, )
                 saved_product.save()
 
-                res["title"] = "TEST\n\n" + res["title"]
+                res["title"] = res["title"]
                 test_bot.send_video(res)
                 sleep(5)
         except Exception as e:
